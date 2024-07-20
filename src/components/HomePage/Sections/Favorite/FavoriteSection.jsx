@@ -22,7 +22,7 @@ export default function FavoriteSection() {
         <div className="bg-[#fde7cb] h-full w-full z-0 rounded-md"></div>
       </Increase>
       <div className="relative flex justify-center w-full">
-        <JumpAndFadeIn className="h-[30rem] xl:max-w-[100rem] max-w-[24rem] shadow-xl mr-28 relative left-8 bottom-12 md:left-0 bottom-0">
+        <JumpAndFadeIn className="h-[30rem] xl:max-w-[100rem] max-w-[24rem] shadow-xl mr-28 relative left-8 bottom-12 md:left-0">
           <img
             className="w-full h-full object-cover rounded-lg skew-x-1"
             src="https://img.freepik.com/premium-photo/burger-with-flying-ingredients-black-background-fast-food-concept_843762-1629.jpg?w=826"

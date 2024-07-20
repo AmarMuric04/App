@@ -20,11 +20,11 @@ const navLinkCSS = "hover:text-yellow-500 cursor-pointer whitespace-nowrap";
 
 export default function Header() {
   return (
-    <header className="w-full backdrop-blur-md absolute top-0 left-0 px-4 md:px-20 py-4 z-50 text-white use-poppins flex justify-center">
+    <header className="w-full backdrop-blur-md absolute top-0 left-0  py-4 z-50 text-white use-poppins flex justify-center">
       <nav className="w-[95%] md:w-[640px] lg:w-[768px] xl:w-[1024px] 2xl:w-[1280px] flex justify-between">
-        <div className="flex gap-8 items-center mr-8">
+        <div className="flex items-center mr-8">
           <img className="h-12 md:h-20" src={Logo} />
-          <p className="use-playwrite text-2xl md:text-3xl text-yellow-500">
+          <p className="use-playwrite text-2xl text-yellow-500">
             Dine<span className="text-green-400">Divine</span>
           </p>
         </div>

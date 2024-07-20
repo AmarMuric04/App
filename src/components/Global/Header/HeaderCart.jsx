@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 
 import YellowButton from "@GlobalComponents/Buttons/YellowButton";
 
+import { RightArrowIcon } from "@Icons/Icons";
+
 const navLinkCSS = "hover:text-yellow-500 cursor-pointer whitespace-nowrap";
 
 export default function HeaderCart() {
